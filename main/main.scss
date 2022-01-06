@@ -7,6 +7,7 @@
 body{
     font-family: 'Spartan', sans-serif;
 }
+// nav bar starts
 nav{
     display: flex;
     justify-content: space-between;
@@ -82,12 +83,21 @@ nav{
             gap: 10px;
         }
     }
+    #close{
+        @media (max-width:799px) {
+            display: block;
+        }
+        display: none;
+    }
 }
 ul.activate{
     @media (max-width:799px) {
         right: 0px;
     }
 }
+// nav bar ends
+
+// hero section
 .hero{
     @media (max-width:799px) {
         height: 50vh;
@@ -154,6 +164,9 @@ ul.activate{
         }
     }
 }
+// end of hero section
+
+// start of feature section
 .feature{
     @media (max-width:799px) {
         height: 60vh;
@@ -219,6 +232,8 @@ ul.activate{
     }
 
 }
+// end of feature section
+
 // product-1 section
 .product1{
     text-align: center;
@@ -283,6 +298,9 @@ ul.activate{
         }
     }
 }
+// end of product-1 section
+
+// banner one
 .banner{
     @media (max-width:799px) {
         height: 20vh;
@@ -332,6 +350,8 @@ ul.activate{
         }
     }
 }
+
+// banner 2
 .banner2{
     display: flex;
     justify-content: space-evenly;
@@ -393,6 +413,7 @@ ul.activate{
         background-image: url(/img/banner/b10.jpg);
     }
 }
+// banner 3
 .banner3{
     display: flex;
     flex-wrap: wrap;
@@ -442,6 +463,8 @@ ul.activate{
         font-size: 18px;
     }
 }
+
+// newletter section
 .newsletter{
     @media (max-width:799px) {
         flex-direction: column;
@@ -523,6 +546,8 @@ ul.activate{
         }
     }
 }
+
+// footer section
 footer{
     @media (max-width:480px) {
         font-size: .8rem;

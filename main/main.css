@@ -138,6 +138,16 @@ nav .moblie .bag {
   }
 }
 
+nav #close {
+  display: none;
+}
+
+@media (max-width: 799px) {
+  nav #close {
+    display: block;
+  }
+}
+
 @media (max-width: 799px) {
   ul.activate {
     right: 0px;
